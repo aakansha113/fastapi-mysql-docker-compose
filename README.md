@@ -28,7 +28,7 @@ comes with Docker Desktop or CLI plugin.
 
 #### To clone this portfolio on your local system, run:
 ```
-https://github.com/aakansha113/fastapi-mysql-docker-compose.git
+https://github.com/aakansha113/Fastapi-mysql-docker-compose.git
 ```
 
 #### ▶️ How to Run the Project:
