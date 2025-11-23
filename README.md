@@ -73,10 +73,6 @@ sudo docker compose down
 sudo docker compose down -v
 ```
 
-###  Author
-#### Aakansha Chandrakant Hujare
-#### 🚀 DevOps & Cloud Enthusiast
-
 ### ⭐ Show Your Support
 
 #### If you like this portfolio, feel free to ⭐ star the repo!
