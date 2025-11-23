@@ -3,9 +3,11 @@
 This project demonstrates a multi-container application using FastAPI as the backend and MySQL as the database, orchestrated with Docker Compose. It includes CRUD operations for managing users.
 
 ## ✅ Features
--FastAPI backend running inside a Docker container
--MySQL database with persistent storage
--Docker Compose for multi-container orchestration
+-FastAPI backend running inside a Docker container.
+
+-MySQL database with persistent storage.
+
+-Docker Compose for multi-container orchestration.
 
 ## 📂 Project Structure
 
@@ -28,7 +30,7 @@ comes with Docker Desktop or CLI plugin.
 
 #### To clone this portfolio on your local system, run:
 ```
-https://github.com/aakansha113/Fastapi-mysql-docker-compose.git
+git clone https://github.com/aakansha113/Fastapi-mysql-docker-compose.git
 ```
 
 #### ▶️ How to Run the Project:
