@@ -20,7 +20,7 @@ fastapi-mysql-docker-compose/
 ## 🛠️ Prerequisites
 ### Docker installed
 ```
-Docker Compose installed
+docker compose version
 ```
 comes with Docker Desktop or CLI plugin.
 
