@@ -31,7 +31,6 @@ comes with Docker Desktop or CLI plugin.
 https://github.com/aakansha113/fastapi-mysql-docker-compose.git
 ```
 
-### STEP 1:
 #### ▶️ How to Run the Project:
 ```
 cd fastapi-mysql-docker-compose
@@ -49,6 +48,7 @@ docker ps
 
 ### You should see:
 1-fastapi-mysql-docker-compose-web-1 (FastAPI)
+
 2-fastapi-mysql-docker-compose-db-1 (MySQL)
 
 ### 🌐 Access the API
