@@ -1,4 +1,4 @@
-# fastapi-mysql-docker-compose
+# Fastapi-mysql-docker-compose
 ## 🚀 FastAPI + MySQL Multi-Container App with Docker Compose
 This project demonstrates a multi-container application using FastAPI as the backend and MySQL as the database, orchestrated with Docker Compose. It includes CRUD operations for managing users.
 
@@ -16,37 +16,67 @@ fastapi-mysql-docker-compose/
     ├── Dockerfile           # FastAPI image build file
     ├── main.py              # FastAPI application
     └── requirements.txt     # Python dependencies
+    
 ## 🛠️ Prerequisites
-Docker installed
-Docker Compose installed (comes with Docker Desktop or CLI plugin)
+### Docker installed
+```
+Docker Compose installed
+```
+comes with Docker Desktop or CLI plugin.
 
-## STEP 1:
-▶️ How to Run the Project
-#cd fastapi-mysql-docker-compose
-2️⃣ Start Services
-#sudo docker compose up --build -d
-3️⃣ Verify Running Containers
-#docker ps
+### 📥 Clone This Repository:
 
-## You should see:
+#### To clone this portfolio on your local system, run:
+```
+https://github.com/aakansha113/fastapi-mysql-docker-compose.git
+```
+
+### STEP 1:
+#### ▶️ How to Run the Project:
+```
+cd fastapi-mysql-docker-compose
+```
+
+#### 2️⃣ Start Services:
+```
+sudo docker compose up --build -d
+```
+
+#### 3️⃣ Verify Running Containers:
+```
+docker ps
+```
+
+### You should see:
 1-fastapi-mysql-docker-compose-web-1 (FastAPI)
 2-fastapi-mysql-docker-compose-db-1 (MySQL)
 
-## 🌐 Access the API
-FastAPI Root Endpoint:
+### 🌐 Access the API
+#### FastAPI Root Endpoint:
+```
 http://localhost:8000
+```
+### Swagger Docs:
 
-## Swagger Docs:
+```
 http://localhost:8000/docs
+```
+### 🛠️ Database Access
+#### To connect to MySQL inside the container:
+```
+docker exec -it fastapi-mysql-docker-compose-db-1 mysql -uroot -prootpass
+```
 
-## 🛠️ Database Access
-To connect to MySQL inside the container:
-#docker exec -it fastapi-mysql-docker-compose-db-1 mysql -uroot -prootpass
+#### Stop Services:
+```
+sudo docker compose down
+sudo docker compose down -v
+```
 
-Stop Services
-#sudo docker compose down
-#sudo docker compose down -v
+###  Author
+#### Aakansha Chandrakant Hujare
+#### 🚀 DevOps & Cloud Enthusiast
 
-## Author
-## Aakansha Chandrakant Hujare
-## 🚀 DevOps & Cloud Enthusiast
+### ⭐ Show Your Support
+
+#### If you like this portfolio, feel free to ⭐ star the repo!
